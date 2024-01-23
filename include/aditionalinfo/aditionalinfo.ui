@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AditionalInfo</class>
+ <widget class="QWidget" name="AditionalInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-11</y>
+     <width>661</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>39</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(30, 34, 39, 0.7);
+color: rgb(161, 167, 185);
+border: 0px;
+border-radius: 5px</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+color: rgb(161, 167, 185);
+</string>
+     </property>
+     <property name="text">
+      <string>Excursion que mas turistas realizaron</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="max_turist">
+     <property name="geometry">
+      <rect>
+       <x>292</x>
+       <y>16</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+font: 16pt &quot;JetBrains Mono&quot;;
+text-decoration: underline;
+color: rgb(152, 195, 121);
+</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>391</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(30, 34, 39, 0.7);
+color: rgb(161, 167, 185);
+border: 0px;
+border-radius: 5px</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>271</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+color: rgb(161, 167, 185);
+</string>
+     </property>
+     <property name="text">
+      <string>Cantidad de 
+excursiones con precio inferior a $15 
+y con una cantidad de turistas por 
+encima de los 50</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="infer_sup">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>20</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+font: 16pt &quot;JetBrains Mono&quot;;
+text-decoration: underline;
+color: rgb(152, 195, 121);
+</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>280</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(30, 34, 39, 0.7);
+color: rgb(161, 167, 185);
+border: 0px;
+border-radius: 5px</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+color: rgb(161, 167, 185);
+</string>
+     </property>
+     <property name="text">
+      <string>Total de dinero recaudado</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="total_money">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>16</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+font: 16pt &quot;JetBrains Mono&quot;;
+text-decoration: underline;
+color: rgb(152, 195, 121);
+</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>391</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(30, 34, 39, 0.7);
+color: rgb(161, 167, 185);
+border: 0px;
+border-radius: 5px</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+color: rgb(161, 167, 185);
+</string>
+     </property>
+     <property name="text">
+      <string>Total de turistas que realizaron 
+excursiones</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="total_turist">
+     <property name="geometry">
+      <rect>
+       <x>292</x>
+       <y>16</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(30, 34, 39, 0);
+font: 16pt &quot;JetBrains Mono&quot;;
+text-decoration: underline;
+color: rgb(152, 195, 121);
+</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

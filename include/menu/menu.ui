@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QWidget" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>711</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(59, 63, 76);</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 37, 42);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="list_btn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>181</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(33, 37, 42, 0);
+border: 0px</string>
+     </property>
+     <property name="text">
+      <string>Registrar nueva
+excursion</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="lists_btn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(33, 37, 42, 0);
+border: 0px</string>
+     </property>
+     <property name="text">
+      <string>Listar
+Excursiones</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="sname_btn">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>170</y>
+       <width>201</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(33, 37, 42, 0);
+border: 0px</string>
+     </property>
+     <property name="text">
+      <string>Buscar una 
+excursion segun
+el nombre</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="adinfo_btn">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>260</y>
+       <width>201</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(33, 37, 42, 0);
+border: 0px</string>
+     </property>
+     <property name="text">
+      <string>Informacion 
+Adicional del
+las excursiones</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
